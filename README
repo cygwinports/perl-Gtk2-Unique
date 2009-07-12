@@ -1,0 +1,77 @@
+perl-Gtk2-Unique
+------------------------------------------
+Perl bindings for the C library LibUnique that provides a mechanism for
+writing single instance applications. If you launch a single instance
+application twice, the second instance will either just quit or will send a
+message to the running instance.
+
+Runtime requirements:
+  cygwin-1.7.0-50
+  libgcc1-4.3.2-2
+  libglib2.0_0-2.20.4-1
+  libgtk2.0_0-2.16.3-1
+  libunique1.0_0-1.0.8-1
+  perl-5.10.0-5
+  perl-Glib-1.222-1
+  perl-Gtk2-1.221-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20080624-2
+  cygport-0.9.8-1
+  gcc4-core-4.3.2-2
+  make-3.81-2
+  perl-ExtUtils-Depends-0.302-1
+  perl-ExtUtils-PkgConfig-1.12-1
+
+Canonical website:
+  http://search.cpan.org/dist/Gtk2-Unique/
+
+Canonical download:
+  http://search.cpan.org/CPAN/authors/id/P/PO/POTYL/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Gtk2-Unique-0.02-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Gtk2-Unique-0.02-X.cygport all
+
+This will create:
+  /usr/src/perl-Gtk2-Unique-0.02-X-src.tar.bz2
+  /usr/src/perl-Gtk2-Unique-0.02-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/Unique.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/Unique/Install/Files.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/Unique/Install/unique-autogen.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/Unique/Install/unique-perl.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/Unique/Install/unique.typemap
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/Unique/index.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/UniqueApp.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/UniqueBackend.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/UniqueMessageData.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gtk2/Unique/.packlist
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gtk2/Unique/Unique.dll
+  /usr/share/doc/perl-Gtk2-Unique/Changes
+  /usr/share/doc/perl-Gtk2-Unique/README
+  /usr/share/man/man3/Gtk2.Unique.index.3pm.gz
+  /usr/share/man/man3/Gtk2.UniqueApp.3pm.gz
+  /usr/share/man/man3/Gtk2.UniqueBackend.3pm.gz
+  /usr/share/man/man3/Gtk2.UniqueMessageData.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.02-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

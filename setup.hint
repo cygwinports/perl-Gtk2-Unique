@@ -1,0 +1,7 @@
+category: Gnome Perl
+requires: libgcc1 libglib2.0_0 libgtk2.0_0 libunique1.0_0 perl perl-Glib perl-Gtk2
+sdesc: "Perl LibUnique bindings"
+ldesc: "Perl bindings for the C library LibUnique that provides a 
+mechanism for writing single instance applications. If you launch a 
+single instance application twice, the second instance will either just 
+quit or will send a message to the running instance."
