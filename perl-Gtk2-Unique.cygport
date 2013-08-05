@@ -1,0 +1,12 @@
+CPAN_AUTHOR="potyl"
+inherit gtk2-perl
+
+NAME="perl-Gtk2-Unique"
+VERSION=0.05
+RELEASE=2
+CATEGORY="Perl"
+SUMMARY="Perl LibUnique bindings"
+DESCRIPTION="Perl bindings for the C library LibUnique that provides a
+mechanism for writing single instance applications. If you launch a single
+instance application twice, the second instance will either just quit or will
+send a message to the running instance."
