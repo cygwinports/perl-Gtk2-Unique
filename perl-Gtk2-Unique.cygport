@@ -3,7 +3,7 @@ inherit gtk2-perl
 
 NAME="perl-Gtk2-Unique"
 VERSION=0.05
-RELEASE=3
+RELEASE=4
 CATEGORY="Perl"
 SUMMARY="Perl LibUnique bindings"
 DESCRIPTION="Perl bindings for the C library LibUnique that provides a
